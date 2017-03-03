@@ -1,0 +1,14 @@
+[package]
+name = "naomii"
+version = "0.1.0"
+authors = ["imamdigmi <imam.digmi@gmail.com>"]
+
+[dependencies]
+
+[lib]
+name = "naomi"
+path = "src/lib.rs"
+
+[[bin]]
+name = "naomi"
+path = "src/main.rs"
