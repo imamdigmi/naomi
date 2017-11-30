@@ -1,5 +1,5 @@
 ## Naomi
 [![Build Status](https://travis-ci.org/imamdigmi/naomi.svg?branch=master)](https://travis-ci.org/imamdigmi/naomi)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/imamdigmi/naomi/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
-Distributed database thesis for Education and Culture Ministry of Indonesia Field of Welfare Awards and Protection for Teachers of High Education written in Rust and CockroachDB.
+Deep Learning Pattern Recognition for Plate Number Vechile with Convolutional Neural Network Algorithm Using TensorFlow and Python
