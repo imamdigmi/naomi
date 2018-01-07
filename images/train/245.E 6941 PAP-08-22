@@ -1,0 +1,26 @@
+<annotation>
+	<folder>50</folder>
+	<filename>245.E 6941 PAP-08-22.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/50/245.E 6941 PAP-08-22.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>694</width>
+		<height>281</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>10</ymin>
+			<xmax>694</xmax>
+			<ymax>265</ymax>
+		</bndbox>
+	</object>
+</annotation>

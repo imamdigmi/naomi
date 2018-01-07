@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>3.E 4537 TCK-12-17.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/3.E 4537 TCK-12-17.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>110</width>
+		<height>50</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>5</ymin>
+			<xmax>103</xmax>
+			<ymax>42</ymax>
+		</bndbox>
+	</object>
+</annotation>

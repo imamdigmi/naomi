@@ -1,0 +1,26 @@
+<annotation>
+	<folder>50</folder>
+	<filename>206.E 2253 RB-01-21.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/50/206.E 2253 RB-01-21.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1022</width>
+		<height>420</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>17</xmin>
+			<ymin>12</ymin>
+			<xmax>1008</xmax>
+			<ymax>415</ymax>
+		</bndbox>
+	</object>
+</annotation>

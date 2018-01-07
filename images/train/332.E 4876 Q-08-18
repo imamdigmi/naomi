@@ -1,0 +1,26 @@
+<annotation>
+	<folder>unlabeled</folder>
+	<filename>332.E 4876 Q-08-18.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/unlabeled/332.E 4876 Q-08-18.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>73</width>
+		<height>35</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>5</ymin>
+			<xmax>68</xmax>
+			<ymax>30</ymax>
+		</bndbox>
+	</object>
+</annotation>

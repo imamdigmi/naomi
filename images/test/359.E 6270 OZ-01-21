@@ -1,0 +1,26 @@
+<annotation>
+	<folder>unlabeled</folder>
+	<filename>359.E 6270 OZ-01-21.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/unlabeled/359.E 6270 OZ-01-21.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>517</width>
+		<height>213</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>5</ymin>
+			<xmax>516</xmax>
+			<ymax>198</ymax>
+		</bndbox>
+	</object>
+</annotation>

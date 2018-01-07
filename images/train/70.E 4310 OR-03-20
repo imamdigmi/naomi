@@ -1,0 +1,26 @@
+<annotation>
+	<folder>51-100</folder>
+	<filename>70.E 4310 OR-03-20.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/51-100/70.E 4310 OR-03-20.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>775</width>
+		<height>309</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>1</ymin>
+			<xmax>775</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+</annotation>

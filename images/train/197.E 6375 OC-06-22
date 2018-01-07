@@ -1,0 +1,26 @@
+<annotation>
+	<folder>101-200</folder>
+	<filename>197.E 6375 OC-06-22.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/101-200/197.E 6375 OC-06-22.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>222</width>
+		<height>90</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>5</ymin>
+			<xmax>214</xmax>
+			<ymax>82</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>101-200</folder>
+	<filename>140.E 5997 QP-01-20.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/101-200/140.E 5997 QP-01-20.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>84</width>
+		<height>44</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>2</ymin>
+			<xmax>84</xmax>
+			<ymax>41</ymax>
+		</bndbox>
+	</object>
+</annotation>

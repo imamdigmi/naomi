@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>2.E 6223 PAC-05-21.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/2.E 6223 PAC-05-21.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>580</width>
+		<height>205</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>12</xmin>
+			<ymin>1</ymin>
+			<xmax>572</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+</annotation>

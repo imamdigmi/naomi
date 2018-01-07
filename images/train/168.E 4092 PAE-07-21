@@ -1,0 +1,26 @@
+<annotation>
+	<folder>101-200</folder>
+	<filename>168.E 4092 PAE-07-21.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/101-200/168.E 4092 PAE-07-21.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>368</width>
+		<height>179</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>3</ymin>
+			<xmax>362</xmax>
+			<ymax>174</ymax>
+		</bndbox>
+	</object>
+</annotation>

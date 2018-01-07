@@ -1,0 +1,26 @@
+<annotation>
+	<folder>50</folder>
+	<filename>212.E 3817 PAH-11-21.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/50/212.E 3817 PAH-11-21.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>463</width>
+		<height>165</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>4</ymin>
+			<xmax>463</xmax>
+			<ymax>158</ymax>
+		</bndbox>
+	</object>
+</annotation>

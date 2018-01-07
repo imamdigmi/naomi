@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>8.E 3396 TO-08-22.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/8.E 3396 TO-08-22.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>752</width>
+		<height>424</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>3</ymin>
+			<xmax>748</xmax>
+			<ymax>424</ymax>
+		</bndbox>
+	</object>
+</annotation>

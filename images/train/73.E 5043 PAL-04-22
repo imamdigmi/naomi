@@ -1,0 +1,26 @@
+<annotation>
+	<folder>51-100</folder>
+	<filename>73.E 5043 PAL-04-22.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/51-100/73.E 5043 PAL-04-22.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>864</width>
+		<height>351</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>1</ymin>
+			<xmax>864</xmax>
+			<ymax>347</ymax>
+		</bndbox>
+	</object>
+</annotation>

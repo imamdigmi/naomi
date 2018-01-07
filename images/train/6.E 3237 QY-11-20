@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>6.E 3237 QY-11-20.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/6.E 3237 QY-11-20.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>442</width>
+		<height>165</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>11</ymin>
+			<xmax>437</xmax>
+			<ymax>154</ymax>
+		</bndbox>
+	</object>
+</annotation>

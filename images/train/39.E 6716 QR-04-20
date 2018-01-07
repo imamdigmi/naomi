@@ -1,0 +1,26 @@
+<annotation>
+	<folder>31-51</folder>
+	<filename>39.E 6716 QR-04-20.jpeg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/31-51/39.E 6716 QR-04-20.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>355</width>
+		<height>130</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>355</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>31-51</folder>
+	<filename>50.E 6691 PAB-04-21.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/31-51/50.E 6691 PAB-04-21.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>169</width>
+		<height>78</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>12</xmin>
+			<ymin>10</ymin>
+			<xmax>160</xmax>
+			<ymax>63</ymax>
+		</bndbox>
+	</object>
+</annotation>

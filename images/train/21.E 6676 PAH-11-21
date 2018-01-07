@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>21.E 6676 PAH-11-21.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/21.E 6676 PAH-11-21.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>178</width>
+		<height>58</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>10</ymin>
+			<xmax>174</xmax>
+			<ymax>53</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>50</folder>
+	<filename>229.E 4951 QE-02-19.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/50/229.E 4951 QE-02-19.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>544</width>
+		<height>228</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>5</ymin>
+			<xmax>543</xmax>
+			<ymax>228</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>23.E 2694 SI-09-19.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/23.E 2694 SI-09-19.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>394</width>
+		<height>128</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>2</ymin>
+			<xmax>383</xmax>
+			<ymax>114</ymax>
+		</bndbox>
+	</object>
+</annotation>

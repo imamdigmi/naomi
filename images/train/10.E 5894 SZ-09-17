@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>10.E 5894 SZ-09-17.jpg</filename>
+	<path>/home/idiot/Code/python/tensorflow/naomi/src/datasets/train/10.E 5894 SZ-09-17.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>424</width>
+		<height>177</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>12</ymin>
+			<xmax>414</xmax>
+			<ymax>158</ymax>
+		</bndbox>
+	</object>
+</annotation>
