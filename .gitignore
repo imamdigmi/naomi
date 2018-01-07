@@ -1,6 +1,9 @@
 .vscode
 .idea
 
+/ssd_mobilenet_v1_coco_2017_11_17
+ssd_mobilenet_v1_coco_2017_11_17.tar.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
