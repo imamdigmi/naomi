@@ -62,8 +62,8 @@ Export graph and the model we have trained
 python3 export_inference_graph.py \
     --input_type image_tensor \
     --pipeline_config_path training/ssd_mobilenet_v1_pets.config \
-    --trained_checkpoint_prefix training/model.ckpt \
-    --output_directory plate_graph_exported
+    --trained_checkpoint_prefix training/model.ckpt-1000 \
+    --output_directory plate_model_exported
 ```
 
 Start jupyter notebook inside the directory to see the results
