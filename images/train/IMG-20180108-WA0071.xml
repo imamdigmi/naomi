@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plates</folder>
+	<filename>IMG-20180108-WA0071.jpg</filename>
+	<path>/home/idiot/Dataset/plates/IMG-20180108-WA0071.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1040</width>
+		<height>585</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>503</xmin>
+			<ymin>227</ymin>
+			<xmax>609</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+</annotation>
