@@ -41,6 +41,7 @@ Box Predictor (Historgram)
 
 Steps
 ![Global Step](screenshots/global-step.png "Global Step")
+
 ---
 
 ## Usage
