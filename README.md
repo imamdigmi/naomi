@@ -27,7 +27,20 @@ Setuptools
 ```
 sudo python3 setup.py install
 ```
+---
 
+## Graph
+Loss
+![Loss](screenshots/losses.png "Loss")
+
+Batch
+![Batch](screenshots/batch.png "Batch")
+
+Box Predictor (Historgram)
+![Box Predictor](screenshots/box-predictor-histogram.png "Box Predictor")
+
+Steps
+![Global Step](screenshots/global-step.png "Global Step")
 ---
 
 ## Usage
