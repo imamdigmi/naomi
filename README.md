@@ -50,8 +50,8 @@ python3 xml_to_csv.py
 Convert csv dataset labels to TFRecord file format
 
 ```
-python3 generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=data/train.record
-python3 generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=data/test.record
+python3 generate_tfrecord.py --type=train --csv_input=data/train_labels.csv  --output_path=data/train.record
+python3 generate_tfrecord.py --type=test --csv_input=data/test_labels.csv  --output_path=data/test.record
 ```
 
 Grab the COCO models
