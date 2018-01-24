@@ -1,4 +1,2 @@
-.record
-.record
-.csv
-.csv
+*.record
+*.csv
