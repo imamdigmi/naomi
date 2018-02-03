@@ -13,12 +13,15 @@ from collections import defaultdict
 from io import StringIO
 from matplotlib import pyplot as plt
 from PIL import Image
+import cv2
 
 if tf.__version__ < '1.4.0':
     raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
 
+# Webcam Setup
+cap = cv2.VideoCapture(0)
+
 # Envirounment setup
-get_ipython().magic(u'matplotlib tk')
 sys.path.append("..")
 
 # Object detection imports
@@ -27,9 +30,9 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 # Model preparation 
-MODEL_NAME = 'plate_model_exported'
+MODEL_NAME = 'plate_number_recognition_model_v1_2018_01_11'
 PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
-PATH_TO_LABELS = os.path.join('training', 'object-detection.pbtxt')
+PATH_TO_LABELS = os.path.join('data', 'plate_number_map.pbtxt')
 NUM_CLASSES = 1
 
 # Load a (frozen) Tensorflow model into memory.
@@ -51,17 +54,6 @@ label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
 categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
 category_index = label_map_util.create_category_index(categories)
 
-# Helper code
-def load_image_into_numpy_array(image):
-    (im_width, im_height) = image.size
-    return np.array(image.getdata()).reshape(
-        (im_height, im_width, 3)).astype(np.uint8)
-
-# Recognition
-PATH_TO_TEST_IMAGES_DIR = 'test_images'
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(3, 4) ]
-IMAGE_SIZE = (12, 8)
-
 with detection_graph.as_default():
     with tf.Session(graph=detection_graph) as sess:
         # Definite input and output Tensors for detection_graph
@@ -76,12 +68,8 @@ with detection_graph.as_default():
         detection_classes = detection_graph.get_tensor_by_name('detection_classes:0')
         num_detections = detection_graph.get_tensor_by_name('num_detections:0')
         
-        for image_path in TEST_IMAGE_PATHS:
-            image = Image.open(image_path)
-            
-            # the array based representation of the image will be used later in order to prepare the
-            # result image with boxes and labels on it.
-            image_np = load_image_into_numpy_array(image)
+        while True:
+            ret, image_np = cap.read()
             
             # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
             image_np_expanded = np.expand_dims(image_np, axis=0)
@@ -101,5 +89,7 @@ with detection_graph.as_default():
                 use_normalized_coordinates=True,
                 line_thickness=8)
             
-            plt.figure(figsize=IMAGE_SIZE)
-            plt.imshow(image_np)
+            cv2.imshow('Deteksi Tanda Nomor Kendaraan Bermotor (TNKB)', cv2.resize(image_np, (1000,800)))
+            if cv2.waitKey(25) & 0xFF == ord('q'):
+                cv2.destroyAllWindows()
+                break
